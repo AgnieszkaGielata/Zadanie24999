@@ -1,0 +1,66 @@
+
+.sekundy {
+    transform: translate(3em, 0);
+   
+    border: 3px solid black;
+    width: 150px;
+    height: 1em;
+    overflow: hidden;
+  }
+
+  .sekundy span {
+    display: block;
+    height: 1em;
+    text-align: center;
+  }
+
+.sekundy-inner {
+  animation-name: sekundy;
+  animation-duration: 10s;
+}
+
+@keyframes sekundy {
+  0%  { 
+   transform: translateY(-1em)
+  }
+
+  10% {
+   transform: translateY(-2em) 
+  }
+
+  20% { 
+   transform: translateY(-3em)
+  }
+
+ 30% {
+    transform: translateY(-4em) 
+  }
+
+  40% {
+   transform: translateY(-5em) 
+  }
+
+  50% {
+   transform: translateY(-6em) 
+  }
+
+  60% {
+   transform: translateY(-7em)
+  }
+
+  70% { 
+   transform: translateY(-8em)
+  }
+
+80% {
+  transform: translateY(-9em) 
+  }
+
+90% { 
+  transform: translateY(-10em);
+  }
+
+100% { 
+  transform: translateY(-11em);
+  }
+}
